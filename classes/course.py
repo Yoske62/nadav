@@ -12,3 +12,6 @@ class course:
 
     def toString(self):
         return self.a + self.b
+
+    def bla(val):
+        return val + val;
