@@ -14,36 +14,14 @@ class Lists(object):
 
     def createStudentsList(self):
         students = []
-        students.append(Student(self.generateID(), "Shay", "Natan", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Gadi", "Sason", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Bill", "DOlentony", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "David", "Telby", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Jimmy", "Parso", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Igal", "Sason", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Shay", "Natan", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Gadi", "Sason", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Bill", "DOlentony", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "David", "Telby", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Jimmy", "Parso", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Igal", "Sason", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Shay", "Natan", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Gadi", "Sason", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Bill", "DOlentony", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "David", "Telby", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Jimmy", "Parso", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Igal", "Sason", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Shay", "Natan", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Gadi", "Sason", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Bill", "DOlentony", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "David", "Telby", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Jimmy", "Parso", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Igal", "Sason", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Shay", "Natan", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Gadi", "Sason", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "Bill", "DOlentony", "Humanities", "Philosophy", "In Progress"))
-        students.append(Student(self.generateID(), "David", "Telby", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Jimmy", "Parso", "Humanities", "History", "In Progress"))
-        students.append(Student(self.generateID(), "Igal", "Sason", "Humanities", "History", "In Progress"))
+        for i in range(1 , 20):
+            students.append(Student(self.generateID(), "Shay", "Natan", "Humanities", "Philosophy", "In Progress"))
+            students.append(Student(self.generateID(), "Gadi", "Sason", "Humanities", "Philosophy", "In Progress"))
+            students.append(Student(self.generateID(), "Bill", "DOlentony", "Humanities", "Philosophy", "In Progress"))
+            students.append(Student(self.generateID(), "David", "Telby", "Humanities", "History", "In Progress"))
+            students.append(Student(self.generateID(), "Jimmy", "Parso", "Humanities", "History", "In Progress"))
+            students.append(Student(self.generateID(), "Igal", "Sason", "Humanities", "History", "In Progress"))
+
         self.students = students
 
 
