@@ -4,3 +4,6 @@ class StudentInCourse(object):
         self.CourseId = course_id
         self.Semester = semester
         self.Year = year
+
+    def toString(self):
+        return "Course: " + self.StudentId + "Semester: " + self.Semester + "/" + self.year
